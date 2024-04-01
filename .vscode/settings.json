@@ -1,0 +1,18 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "MINGW32": {
+          "path": "C:\\msys64\\usr\\bin\\bash.exe",
+          "args": ["--login", "-i"],
+          "env": { 
+                "CHERE_INVOKING": "1",
+                "MINGW_PREFIX": "/mingw32",
+                "PKG_CONFIG_PATH": "/mingw32/lib/pkgconfig:/mingw32/share/pkgconfig",
+                "MSYSTEM": "MINGW32",
+                "MINGW_CHOST": "i686-w64-mingw32",
+                "MSYSTEM_CARCH": "i686",
+                "MINGW_PACKAGE_PREFIX": "mingw-w64-i686"
+            }
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "MINGW32",
+}
